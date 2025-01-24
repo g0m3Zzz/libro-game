@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    /*tipo di carattere di testo della pagina web*/
+    
+    background-color: #f0f0f0;
+    /* Imposta il colore dello sfondo*/
+    
+    display: flex;
+    /* Organizza gli elementi all'interno del body*/
+    
+    justify-content: center;
+    /* Allinea gli elementi*/
+    
+    align-items: center;
+    /* Allinea gli elementi  al centro*/
+    
+    height: 100vh;
+    /* Imposta l'altezza del body*/
+    
+    margin: 0;
+    /* Rimuove il margine*/
+}
+
+#game-container {
+    background-color: white;
+    /* Imposta il colore dello sfondo*/
+    
+    border-radius: 8px;
+    /* Applica angoli*/
+    
+    padding: 175px;
+    /* Aggiunge uno spazio interno*/
+    
+    width: 600px;
+    /* Imposta la largezza del contenitore*/
+    
+    align-items: flex-start;
+    /* Allinea gli elementi al'inizio del contenitore*/
+}
+
+
+h1 {
+    color: yellow;
+    /* Imposta il colore del testo*/
+}
+
+#story-text {
+    font-size: 18px;
+    /* Imposta la dimensione del testo*/
+    
+    margin-bottom: 20px;
+    /* Aggiunge uno spazio di 20px sotto il testo della storia*/
+}
+
+#options button {
+    background-color: #4CAF50;
+    /* Imposta il colore di sfondo del bottone*/
+    
+    color: white;
+    /* Imposta il colore del bottone a bianco*/
+    
+    border: none;
+    /* Rimuove il bordo normale del bottone*/
+    
+    padding: 10px;
+    /* Aggiunge di spazio al bottone*/
+    
+    margin: 5px;
+    /* Aggiunge uno spazio tra i bottoni*/
+    
+    cursor: pointer;
+    /* Cambia il cursore quando passa sopra il bottone*/
+    
+    border-radius: 5px;
+    /* Applica angoli ai bottoni*/
+    
+    font-size: 16px;
+    /* Imposta la dimensione nei bottoni*/
+}
+
+#options button:hover {
+    background-color: red;
+    /* Cambia il colore dello sfondo del bottone quando il cursore passa sopra*/
+}
+
+#image-container img {
+    width: 100%;
+    /* Imposta la largezza del'immagine al 100% del contenitore */
+    
+    height: auto;
+    /* Imposta l'altezza dell'immagine*/
+    
+    max-height: 300px;
+    /* Limita l'altezza massima*/
+    
+    object-fit: cover;
+    /* Assicura che l'immagine copra completamente la area*/
+    
+    border-radius: 5px;
+    /* Applica angoli al'immagine*/
+    
+    margin-top: 20px;
+    /* Aggiunge uno spazio sopra l'immagine*/
+}
+
+#options {
+    width: 100%;
+    /* Imposta la larghezza del contenitore delle opzioni al 100%*/
+    
+    display: flex;
+    /* Imposta per gli elementi all'interno del contenitore*/
+    
+    flex-direction: column;
+    /* Organizza i bottoni in una colonna*/
+    
+    align-items: center;
+    /* Alineea i bottoni al centro del contenitore*/
+    
+    padding: 20px;
+    /* Aggiunge spazio interno attorno a gl elementi*/
+}
